@@ -1,18 +1,19 @@
 {
   "name": "gogoanime-rest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Rest API for gogoanime",
+  "main": "./dist/lib/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["anime", "gogoanime", "api", "wrapper"],
+  "author": "kiwimoe",
   "license": "BSD-2-Clause",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "eslint-config-tea": "github:kiwimoe/eslint-config-tea",
-    "undici": "^5.7.0"
+    "typescript": "^4.7.4",
+    "undici": "^5.8.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
