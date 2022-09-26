@@ -1,100 +1,100 @@
 export interface StreamLinkResult {
-    animeStream: string;
-    videoCDN: string;
-    streamsb: string | undefined;
-    xstreamcdn: string | undefined;
-    doodstream: string | undefined;
+    animeStream?: string;
+    videoCDN?: string;
+    streamsb?: string;
+    xstreamcdn?: string;
+    doodstream?: string;
 }
 
 export interface SearchAnimeResult {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    released: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    released?: string;
 }
 
 export interface FindAnimeListResult {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    released: string | undefined;
-    status: string | undefined;
-    summary: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    released?: string;
+    status?: string;
+    summary?: string;
 }
 
 export interface FindNewSeasonResult {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    released: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    released?: string;
 }
 
 export interface FindRecentReleaseResult {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    episode: string;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    episode?: string;
 }
 
 export interface FindAnimeMovies {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    released: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    released?: string;
 }
 
 export interface FindPopularAnimes {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    released: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    released?: string;
 }
 
 export interface FindOngoingSeries {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
 }
 
 export interface FindGenre {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    released: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    released?: string;
 }
 
 export interface FindAnimeDetails {
-    id: string | undefined,
-    title: string | undefined,
-    type: string | undefined,
-    plot_summary: string | undefined,
-    genre: string | undefined,
-    image: string | undefined,
-    released: string | undefined,
-    status: string | undefined,
-    other_names: string | undefined,
-    episodes: string | undefined,
+    id?: string;
+    title?: string;
+    type?: string;
+    plot_summary?: string;
+    genre?: string;
+    image?: string;
+    released?: string;
+    status?: string;
+    other_names?: string;
+    episodes?: string;
 }
 
 export interface FindSubcategory {
-    id: string | undefined;
-    title: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    released: string | undefined;
+    id?: string;
+    title?: string;
+    url?: string;
+    image?: string;
+    released?: string;
 }
 
 export interface FindPopularUpdates {
-    id: string | undefined;
-    url: string | undefined;
-    image: string | undefined;
-    genres: string | undefined;
-    latest: string | undefined;
+    id?: string;
+    url?: string;
+    image?: string;
+    genres?: string;
+    latest?: string;
 }
