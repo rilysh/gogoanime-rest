@@ -14,7 +14,7 @@ import type {
 } from "../types/types";
 import { loadPage } from "./util/loadpage";
 
-const GOGO_URL = "https://gogoanime.gg";
+const GOGO_URL = "https://gogoanime.tel";
 const AJAX_URL = "https://ajax.gogo-load.com";
 const AJAX_RECENT_ONGOING = "ajax/page-recent-release-ongoing.html";
 

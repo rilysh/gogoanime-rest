@@ -6,7 +6,6 @@ const request = async (url: string): Promise<Response> => {
     return data;
 };
 
-// I don't think we need to use cookies, but if anything goes wrong answe would be yes.
 const loadPage = async (url: string): Promise<CheerioAPI> => {
     const data = await fetch(url, {
         headers: {
