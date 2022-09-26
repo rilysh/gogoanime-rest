@@ -11,7 +11,7 @@ cd gogoanime-rest && tsc
 
 #### Example
 ```js
-import { searchAnime } from "dist/api.js";
+const { searchAnime } = require("./dist/api");
 
 (async () => {
     const data = await searchAnime("devil is a part timer");
